@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio premium — Développeur Full-Stack moderne, créatif et performant basé au Niger.">
+    <title>Portfolio | Full-Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CURSOR -->
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- ══════════ NAVBAR ══════════ -->
+    <nav id="navbar">
+        <div class="nav-logo">&lt;SYI /&gt;</div>
+        <button class="nav-toggle" id="navToggle"><i class="bi bi-list"></i></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#timeline">Parcours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="btn-nav-wrap">
+            <a href="#" class="btn-nav"><i class="bi bi-download me-1"></i> Mon CV</a>
+        </div>
+    </nav>
+
+    <!-- ══════════ HERO ══════════ -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="orb orb1"></div>
+            <div class="orb orb2"></div>
+            <div class="orb orb3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center g-5 min-vh-100 py-5">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-badge">Disponible pour missions</div>
+                    <h1 class="hero-name">
+                        Soumana Yayé<br><span class="grad">Issaka</span>
+                    </h1>
+                    <p class="hero-title">Développeur Senior &amp; Créateur d'expériences web, Afiiche-Pub etc....</p>
+                    <p class="hero-desc">Je conçois et développe des applications web modernes, performantes et
+                        mémorables. De l'idée au produit fini, je transforme vos visions en réalités numériques
+                        exceptionnelles.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-primary-p"><i class="bi bi-grid me-2"></i>Voir mes projets</a>
+                        <a href="#contact" class="btn-ghost"><i class="bi bi-envelope me-2"></i>Me contacter</a>
+                        <a href="#" class="btn-ghost"><i class="bi bi-download me-2"></i>CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center hero-visual">
+                    <div style="position:relative;display:inline-block">
+                        <div class="float-badge fb1">
+                            <div class="fb-dot" style="background:#22C55E"></div>
+                            <span style="font-size:.8rem">Disponible <span
+                                    style="color:var(--muted);font-weight:400">pour projets</span></span>
+                        </div>
+                        <img src="Images/Me.jpeg" class="hero-avatar" alt="Amadou Diallo">
+                        <div class="float-badge fb2">
+                            <i class="bi bi-star-fill" style="color:#F59E0B"></i>
+                            <span style="font-size:.8rem">15+ <span
+                                    style="color:var(--muted);font-weight:400">projets</span></span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center gap-4 mt-4">
+                        <div class="text-center">
+                            <div
+                                style="font-size:1.8rem;font-weight:900;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+                                15+</div>
+                            <div style="color:var(--muted);font-size:.75rem">Projets</div>
+                        </div>
+                        <div style="width:1px;background:var(--border)"></div>
+                        <div class="text-center">
+                            <div
+                                style="font-size:1.8rem;font-weight:900;background:var(--grad2);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+                                2+</div>
+                            <div style="color:var(--muted);font-size:.75rem">Années</div>
+                        </div>
+                        <div style="width:1px;background:var(--border)"></div>
+                        <div class="text-center">
+                            <div
+                                style="font-size:1.8rem;font-weight:900;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+                                10+</div>
+                            <div style="color:var(--muted);font-size:.75rem">Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ ABOUT ══════════ -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal">
+                    <div class="section-tag">À Propos</div>
+                    <h2 class="section-title mb-4">Passionné par le <span class="grad">pixel parfait</span></h2>
+                    <p style="color:var(--muted);line-height:1.8;margin-bottom:16px">Je suis un développeur Senior
+                        basé à Niamey, Niger, passionné par la création d'interfaces numériques modernes et
+                        performantes. Mon approche allie esthétique soignée, code propre et expérience utilisateur
+                        intuitive.</p>
+                    <p style="color:var(--muted);line-height:1.8;margin-bottom:32px">Depuis plus de 2 ans, j'accompagne
+                        startups et entreprises dans leur transformation digitale — de la conception à la mise en ligne,
+                        en passant par l'optimisation et la maintenance.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <div
+                            style="background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:10px;padding:8px 16px;font-size:.82rem;color:var(--blue)">
+                            <i class="bi bi-check2 me-1"></i>Code propre
+                        </div>
+                        <div
+                            style="background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.2);border-radius:10px;padding:8px 16px;font-size:.82rem;color:var(--purple)">
+                            <i class="bi bi-check2 me-1"></i>100% Responsive
+                        </div>
+                        <div
+                            style="background:rgba(6,182,212,.08);border:1px solid rgba(6,182,212,.2);border-radius:10px;padding:8px 16px;font-size:.82rem;color:var(--cyan)">
+                            <i class="bi bi-check2 me-1"></i>SEO Optimisé
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal reveal-delay-2">
+                    <div class="stat-grid">
+                        <div class="stat-item">
+                            <div class="stat-num">15+</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">10+</div>
+                            <div class="stat-label">Clients satisfaits</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">2+</div>
+                            <div class="stat-label">Années d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">7+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ SKILLS ══════════ -->
+    <section id="skills">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="section-tag">Expertise</div>
+                <h2 class="section-title">Mes <span class="grad">Compétences</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-blue"><i class="bi bi-filetype-html"></i></div>
+                        <div class="skill-name">HTML5</div>
+                        <div class="skill-level">Expert · 90%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-purple"><i class="bi bi-filetype-css"></i></div>
+                        <div class="skill-name">CSS3</div>
+                        <div class="skill-level">Expert · 80%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-cyan"><i class="bi bi-bootstrap"></i></div>
+                        <div class="skill-name">Bootstrap 5</div>
+                        <div class="skill-level">Expert · 80%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-blue"><i class="bi bi-filetype-js"></i></div>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level">Avancé · 50%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-purple"><i class="bi bi-filetype-php"></i></div>
+                        <div class="skill-name">MERISE</div>
+                        <div class="skill-level">Intermédiaire · 75%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-cyan"><i class="bi bi-database"></i></div>
+                        <div class="skill-name">MySQL</div>
+                        <div class="skill-level">Intermédiaire · 30%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:30%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-blue"><i class="bi bi-git"></i></div>
+                        <div class="skill-name">Git / GitHub</div>
+                        <div class="skill-level">Intermédiaire · 65%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:65%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+                    <div class="skill-card">
+                        <div class="skill-icon-wrap icon-purple"><i class="bi bi-palette"></i></div>
+                        <div class="skill-name">UI / UX</div>
+                        <div class="skill-level">Debutant · 20%</div>
+                        <div class="prog-bar">
+                            <div class="prog-fill" style="width:20%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ PROJECTS ══════════ -->
+    <section id="projects">
+        <div class="container">
+            <div class="text-center mb-3 reveal">
+                <div class="section-tag">Portfolio</div>
+                <h2 class="section-title">Mes <span class="grad">Projets</span></h2>
+            </div>
+            <div class="filter-bar justify-content-center reveal">
+                <button class="filter-btn active">Tous</button>
+                <button class="filter-btn">Web App</button>
+                <button class="filter-btn">E-commerce</button>
+                <button class="filter-btn">Dashboard</button>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/facuration.png"
+                                class="project-img" alt="Pharma-Shop">
+                            <div class="project-overlay">
+                                <a href="https://soumana-yaye-issaka.github.io/Facturation/" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Facturation</div>
+                            <div class="project-desc">Interface utilisateur d'une application SaaS de facturation et de comptabilité conçue pour les indépendants et
+                                 les entreprises. Le tableau de bord offre une vue analytique claire grâce à des graphiques interactifs (statistiques de facturation 
+                                 et répartition des articles par catégorie) et permet un suivi en temps réel des factures en attente, des articles et du portefeuille clients.</div>
+                            <div class="tech-tags"><span class="tech-tag">Bootstrap</span><span
+                                    class="tech-tag">PHP</span><span class="tech-tag">MySQL</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/Resaurant.jpeg"
+                                class="project-img" alt="Dashboard">
+                            <div class="project-overlay">
+                                <a href="https://soumana-yaye-issaka.github.io/Feane_Restorant/" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Restaurant</div>
+                            <div class="project-desc">Site web vitrine et e-commerce immersif développé pour un restaurant de type Fast Food moderne ("Feane"). 
+                                L'interface comprend une page d'accueil avec un Hero section dynamique sous forme de carrousel interactif, une présentation des menus, 
+                                un module de réservation de table ("Book Table") et un tunnel de conversion direct avec boutons d'appel à l'action ("Commander Online", "Order Now").</div>
+                            <div class="tech-tags"><span class="tech-tag">HTML</span><span class="tech-tag">Bootstrap
+                                    5</span><span class="tech-tag">JS</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/Dasboard.jpeg"
+                                class="project-img" alt="Gestion Pharma">
+                            <div class="project-overlay">
+                                <a href="https://soumana-yaye-issaka.github.io/Dasbord/" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Dashboard Administrateur</div>
+                            <div class="project-desc">Interface d'administration centralisée axée sur la visualisation de données nationales. 
+                                Ce tableau de bord intègre une carte interactive du Niger pour le suivi des statistiques par région, couplée à des indicateurs clés : 
+                                gestion des utilisateurs (actifs/inactifs), suivi des tâches en cours et modules de communication en temps réel (notifications et messagerie intégrée). <br> 
+                                Technologies phares : HTML5 / CSS3 (SASS / Bootstrap pour la structure responsive), JavaScript / TypeScript, SVG (pour le rendu et l'interactivité pixel-perfect de la carte nationale).</div>
+                            <div class="tech-tags"><span class="tech-tag">PHP</span><span
+                                    class="tech-tag">MySQL</span><span class="tech-tag">Bootstrap</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/Agri.jpeg"
+                                class="project-img" alt="E-commerce">
+                            <div class="project-overlay">
+                                <a href="https://soumana-yaye-issaka.github.io/Agritech_App_Fremework/" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Plateforme E-commerce (ArgriTech)</div>
+                            <div class="project-desc">Application web à impact conçue pour moderniser le secteur agricole au Niger. 
+                                La plateforme fait office de portail d'information et de services, offrant aux acteurs du monde rural un accès direct à des modules clés : 
+                                le suivi des indicateurs de la FAO, des prévisions météo locales en temps réel, et un catalogue de formations pratiques sur le terrain.</div>
+                            <div class="tech-tags"><span class="tech-tag">PHP</span><span
+                                    class="tech-tag">JS</span><span class="tech-tag">MySQL</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/AffichePortfolio.png"
+                                class="project-img" alt="Portfolio">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Portfolio Premium</div>
+                            <div class="project-desc">Portfolio professionnel premium avec design moderne et animations
+                                sophistiquées.</div>
+                            <div class="tech-tags"><span class="tech-tag">HTML</span><span
+                                    class="tech-tag">CSS</span><span class="tech-tag">Bootstrap 5</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="project-card">
+                        <div class="project-img-wrap">
+                            <img src="Images/Oumra.jpg"
+                                class="project-img" alt="Analytics">
+                            <div class="project-overlay">
+                                <a href="https://soumana-yaye-issaka.github.io/Oumara_Prestige/" class="btn-ov"><i class="bi bi-eye me-1"></i>Démo</a>
+                                <a href="#" class="btn-ov"><i class="bi bi-github me-1"></i>GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">Oumra Prestige</div>
+                            <div class="project-desc">Site web vitrine et plateforme e-commerce dédiée à l'organisation de pèlerinages d'excellence vers La Mecque. 
+                                Le site accueille l'utilisateur avec une section Hero immersive en plein écran mettant en valeur une image panoramique à fort impact émotionnel,
+                                un message de bienvenue clair et un entonnoir de conversion direct menant vers le module de réservation..</div>
+                            <div class="tech-tags"><span class="tech-tag">JS</span><span
+                                    class="tech-tag">Bootstrap</span><span class="tech-tag">MySQL</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ TIMELINE ══════════ -->
+    <section id="timeline">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="section-tag">Expérience</div>
+                <h2 class="section-title">Mon <span class="grad">Parcours</span></h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline">
+                        <div class="tl-item reveal">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <div class="tl-date">2024 — Présent</div>
+                                <div class="tl-role">Développeur Senior Freelance</div>
+                                <div class="tl-company">Indépendant · Niamey, Niger</div>
+                                <div class="tl-desc">Conception et développement d'applications web sur mesure pour des
+                                    clients locaux et internationaux. Spécialisation dans les plateformes e-commerce et
+                                    les systèmes de gestion.</div>
+                            </div>
+                        </div>
+                        <div class="tl-item reveal reveal-delay-1">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <div class="tl-date">2023 — 2024</div>
+                                <div class="tl-role">Développeur Front-End</div>
+                                <div class="tl-company">SYI-SERVICE-TECH · Niamey, Niger</div>
+                                <div class="tl-desc">Développement et maintenance d'interfaces utilisateur modernes.
+                                    Intégration de designs responsives et optimisation des performances web.</div>
+                            </div>
+                        </div>
+                        <div class="tl-item reveal reveal-delay-2">
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <div class="tl-date">2021 — 2023</div>
+                                <div class="tl-role">Apprenant Développeur Web</div>
+                                <div class="tl-company">Formation(CODELOCCOL) & Projets personnels</div>
+                                <div class="tl-desc">Apprentissage intensif des technologies web : HTML, CSS,
+                                    JavaScript, MySQL. Réalisation des premiers projets et construction du
+                                    portfolio.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ TESTIMONIALS ══════════ -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="section-tag">Témoignages</div>
+                <h2 class="section-title">Ils me font <span class="grad">confiance</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal reveal-delay-1">
+                    <div class="testi-card">
+                        <div class="stars">★★★★★</div>
+                        <div class="quote-icon">"</div>
+                        <div class="testi-text">« Travailler avec Soumana Yayé Issaka est un vrai bonheur pour un designer. 
+                            En tant que développeur Front-End Senior, il a cette capacité rare de transformer 
+                            n'importe quelle maquette complexe en une interface pixel-perfect, ultra-fluide et 
+                            parfaitement responsive. Son code est propre, structuré et performant. ».</div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/Abass.jpeg"
+                                class="testi-avatar" alt="">
+                            <div>
+                                <div class="testi-name">Ismaël Moctar Abass</div>
+                                <div class="testi-role">collègue de travail</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-2">
+                    <div class="testi-card">
+                        <div class="stars">★★★★★</div>
+                        <div class="quote-icon">"</div>
+                        <div class="testi-text">« Ce qui impressionne chez Soumana Yayé Issaka, c'est sa rigueur sur l'optimisation. 
+                            Il ne se contente pas de faire du beau Front-End, il s'assure que le site se charge à la vitesse de l'éclair, que le SEO est parfait et que l'accessibilité est respectée. 
+                            Un profil senior indispensable pour toute équipe tech moderne. »</div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/Asmaou.jpeg"
+                                class="testi-avatar" alt="">
+                            <div>
+                                <div class="testi-name">Asmaou Moustapha</div>
+                                <div class="testi-role">collègue de trail</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-3">
+                    <div class="testi-card">
+                        <div class="stars">★★★★½</div>
+                        <div class="quote-icon">"</div>
+                        <div class="testi-text">« Soumana Yayé Issaka excelle dans l'art de créer des expériences utilisateur immersives. 
+                            Ses compétences en intégration moderne et sa maîtrise des micro-interactions apportent une valeur ajoutée immense à nos applications. 
+                            C'est l'expert Front-End idéal pour captiver et fidéliser les utilisateurs. »</div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="Images/Mohamed.jpeg"
+                                class="testi-avatar" alt="">
+                            <div>
+                                <div class="testi-name">Mohamed Atahirou</div>
+                                <div class="testi-role">collègue de travail</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ CONTACT ══════════ -->
+    <section id="contact">
+        <div class="container" style="position:relative;z-index:1">
+            <div class="text-center mb-5 reveal">
+                <div class="section-tag">Contact</div>
+                <h2 class="section-title">Travaillons <span class="grad">ensemble</span></h2>
+                <p style="color:var(--muted);margin-top:12px;max-width:480px;margin-left:auto;margin-right:auto">Vous
+                    avez un projet ? Une idée ? N'hésitez pas à me contacter, je serai ravi d'en discuter.</p>
+            </div>
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-5 reveal">
+                    <div class="contact-info">
+                        <div class="ci-item">
+                            <div class="ci-icon icon-blue"><i class="bi bi-telephone"></i></div>
+                            <div>
+                                <div class="ci-label">Téléphone</div>
+                                <div class="ci-val">+227 90 88 37 16</div>
+                            </div>
+                        </div>
+                        <div class="ci-item">
+                            <div class="ci-icon icon-purple"><i class="bi bi-envelope"></i></div>
+                            <div>
+                                <div class="ci-label">Email</div>
+                                <div class="ci-val">soumanayayeissaka@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="ci-item">
+                            <div class="ci-icon icon-cyan"><i class="bi bi-geo-alt"></i></div>
+                            <div>
+                                <div class="ci-label">Localisation</div>
+                                <div class="ci-val">Niamey, Niger 🇳🇪</div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/22790883716" target="_blank" class="wa-btn">
+                            <i class="bi bi-whatsapp" style="font-size:1.3rem"></i>
+                            <div>
+                                <div style="font-size:.75rem;opacity:.8">Contactez-moi sur</div>
+                                <div>WhatsApp · +227 90 88 37 16</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 reveal reveal-delay-2">
+                    <div class="contact-form-wrap">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Nom complet</label>
+                                <input type="text" class="form-field" placeholder="Jean Dupont">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-field" placeholder="jean@email.com">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Sujet</label>
+                                <input type="text" class="form-field" placeholder="Votre projet...">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-field" rows="5"
+                                    placeholder="Décrivez votre projet en détail..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn-primary-p w-100 d-flex align-items-center justify-content-center gap-2"
+                                    style="border:none;padding:14px;font-size:.95rem">
+                                    <i class="bi bi-send"></i> Envoyer le message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ FOOTER ══════════ -->
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-4">
+                <div>
+                    <div
+                        style="font-size:1.2rem;font-weight:800;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent">
+                        &lt;SYI /&gt;</div>
+                    <div style="color:var(--muted);font-size:.8rem;margin-top:4px">© 2026 Soumana Yayé Issaka · Tous droits
+                        réservés</div>
+                </div>
+                <div class="d-flex gap-3">
+                    <a href="https://github.com/Soumana-yaye-Issaka" class="social-link"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/issaka-soumaya-yaye-92303435b/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61589446077242" class="social-link"><i class="bi bi-facebook"></i></i></a>
+                    <a href="https://wa.me/22790883716" target="_blank" class="social-link" style="color:#25D366"><i
+                            class="bi bi-whatsapp"></i></a>
+                    <a href="#hero" class="back-top"><i class="bi bi-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // ── CURSOR
+        const cur = document.getElementById('cursor');
+        const ring = document.getElementById('cursor-ring');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; cur.style.left = mx - 6 + 'px'; cur.style.top = my - 6 + 'px'; });
+        function animRing() { rx += (mx - rx) * .12; ry += (my - ry) * .12; ring.style.left = rx - 18 + 'px'; ring.style.top = ry - 18 + 'px'; requestAnimationFrame(animRing); }
+        animRing();
+        document.querySelectorAll('a,button,.project-card,.skill-card,.tl-card,.ci-item').forEach(el => {
+            el.addEventListener('mouseenter', () => { cur.style.transform = 'scale(2.5)'; ring.style.width = '60px'; ring.style.height = '60px'; });
+            el.addEventListener('mouseleave', () => { cur.style.transform = 'scale(1)'; ring.style.width = '36px'; ring.style.height = '36px'; });
+        });
+
+        // ── REVEAL ON SCROLL
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // ── NAVBAR SCROLL
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            nav.style.padding = window.scrollY > 50 ? '12px 40px' : '20px 40px';
+        });
+
+        // ── MOBILE NAV
+        document.getElementById('navToggle').addEventListener('click', () => {
+            document.getElementById('navLinks').classList.toggle('open');
+        });
+        document.querySelectorAll('#navLinks a').forEach(a => {
+            a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open'));
+        });
+
+        // ── FILTER BUTTONS
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function () { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); this.classList.add('active'); });
+        });
+    </script>
+</body>
+
+</html>
